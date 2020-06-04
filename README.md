@@ -1,5 +1,6 @@
 <h1 align="center">
     <img alt="React logo" width="70px" height="50px" src="https://github.com/luizpaulogroup/react-nubank/blob/master/src/Gif/react.png" />
+    <img alt="React logo" width="70px" height="50px" src="https://github.com/luizpaulogroup/github-readme/blob/master/images/rocketseat.jpg" />
     <br>
     Ecoleta
 </h1>
