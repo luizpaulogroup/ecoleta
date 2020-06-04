@@ -3,10 +3,10 @@
     <img alt="React logo" width="50px" height="50px" src="https://github.com/luizpaulogroup/github-readme/blob/master/images/rocketseat.jpg" />
     <br>
     Ecoleta
-    <br>
-    development of a waste collection system, developed with react and react native technologies by **@Rocketseat** taught by **@diego3g**
 </h1>
-
+<p align="center">
+    development of a waste collection system, developed with react and react native technologies by @Rocketseat taught by @diego3g
+</p>
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;
