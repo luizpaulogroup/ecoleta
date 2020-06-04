@@ -9,10 +9,6 @@
   <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;
 </p>
 
-<h1 align="center">
-    <img src="https://github.com/luizpaulogroup/react-nubank/blob/master/src/assets/GIF.gif" style="max-width:100%;">
-</h1>
-
 ## :rocket: Technologies
 
 This project was developed with the technologies:
