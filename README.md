@@ -8,11 +8,14 @@
     :recycle: Development of a waste collection system, developed with react and react native technologies by @Rocketseat taught by @diego3g
 </p>
 <p align="center">
+  <a href="#page_with_curl-development">Development</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center"><img alt="React logo" width="80%" src="https://github.com/luizpaulogroup/ecoleta/blob/master/images/1.png" /></p>
+
+## :page_with_curl: Development
 
 ## :rocket: Technologies
 
