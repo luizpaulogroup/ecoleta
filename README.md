@@ -5,9 +5,6 @@
     Ecoleta
 </h1>
 <p align="center">
-    :recycle: Development of a waste collection system, developed with react and react native technologies by @Rocketseat taught by @diego3g
-</p>
-<p align="center">
   <a href="#books-development">Development</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;
@@ -16,7 +13,7 @@
 <p align="center"><img alt="React logo" width="80%" src="https://github.com/luizpaulogroup/ecoleta/blob/master/images/1.png" /></p>
 
 ## :books: Development
-System developed to register recycling points.
+System developed to register :recycle: recycling points.
 At a [Rocketseat](https://github.com/rocketseat) Next Level Week event taught by [Diego Schell Fernandes](https://github.com/diego3g).
 
 ## :rocket: Technologies
