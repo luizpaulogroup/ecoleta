@@ -9,6 +9,8 @@
   <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;
 </p>
 
+<p align="center"><img alt="React logo" width="100%" src="https://github.com/luizpaulogroup/ecoleta/blob/master/images/1.png" /></p>
+
 ## :rocket: Technologies
 
 This project was developed with the technologies:
