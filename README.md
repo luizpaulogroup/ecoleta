@@ -5,7 +5,7 @@
     Ecoleta
 </h1>
 <p align="center">
-    development of a waste collection system, developed with react and react native technologies by @Rocketseat taught by @diego3g
+    :recycle: Development of a waste collection system, developed with react and react native technologies by @Rocketseat taught by @diego3g
 </p>
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
