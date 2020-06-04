@@ -16,6 +16,8 @@
 <p align="center"><img alt="React logo" width="80%" src="https://github.com/luizpaulogroup/ecoleta/blob/master/images/1.png" /></p>
 
 ## :books: Development
+System developed to register recycling points.
+At a [Rocketseat](https://github.com/rocketseat) Next Level Week event taught by [Diego Schell Fernandes](https://github.com/diego3g).
 
 ## :rocket: Technologies
 
