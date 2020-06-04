@@ -2,11 +2,13 @@ import React, { useEffect, useState, ChangeEvent, FormEvent } from 'react';
 
 import { Link, useHistory } from 'react-router-dom';
 
-import { FiArrowLeft } from 'react-icons/fi';
+import { FiArrowLeft, FiCheckCircle } from 'react-icons/fi';
 
 import { Map, TileLayer, Marker } from 'react-leaflet';
 
 import { LeafletMouseEvent } from 'leaflet';
+
+import { ToastContainer, toast } from 'react-toastify';
 
 import axios from 'axios';
 
@@ -56,6 +58,8 @@ const CreatePoint = () => {
         whatsapp: ''
     });
 
+    const [created, setCreated] = useState<boolean>(false);
+
     const history = useHistory();
 
     useEffect(() => {
@@ -69,7 +73,6 @@ const CreatePoint = () => {
 
         api.get('/items')
             .then(response => setItems(response.data));
-
     }, []);
 
     useEffect(() => {
@@ -145,6 +148,12 @@ const CreatePoint = () => {
         const [latitude, longitude] = selectedPosition;
         const items = selectedItems;
 
+        if (!name.trim() || !email.trim() || !whatsapp.trim() || !uf.trim() || !city.trim() || !latitude || !longitude || items.length == 0) {
+            return toast.error("Informe nome, email, whatsapp, UF, Cidade e selecione no mapa!", {
+                className: "toast-error"
+            });
+        }
+
         const data = {
             name,
             email,
@@ -158,8 +167,20 @@ const CreatePoint = () => {
 
         await api.post('/points', data);
 
-        history.push('/');
+        setCreated(true);
 
+        setTimeout(() => history.push('/'), 2000);
+
+    }
+
+    if (created) {
+        return (
+            <div id="created">
+                <FiCheckCircle size={42} color="#34CB79" />
+                <span>Cadastro concluído!</span>
+                <span id="muted">Aguarde...</span>
+            </div>
+        )
     }
 
     return (
@@ -276,6 +297,7 @@ const CreatePoint = () => {
                 </fieldset>
                 <button type="submit">Cadastrar ponto de coleta</button>
             </form>
+            <ToastContainer />
         </div>
     )
 }
