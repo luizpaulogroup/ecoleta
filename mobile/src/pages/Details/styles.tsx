@@ -18,12 +18,12 @@ const styles = StyleSheet.create({
   pointName: {
     color: '#322153',
     fontSize: 28,
-    fontFamily: 'Ubuntu_700Bold',
+    // fontFamily: 'Ubuntu_700Bold',
     marginTop: 24,
   },
 
   pointItems: {
-    fontFamily: 'Roboto_400Regular',
+    // fontFamily: 'Roboto_400Regular',
     fontSize: 16,
     lineHeight: 24,
     marginTop: 8,
@@ -36,12 +36,12 @@ const styles = StyleSheet.create({
 
   addressTitle: {
     color: '#322153',
-    fontFamily: 'Roboto_500Medium',
+    // fontFamily: 'Roboto_500Medium',
     fontSize: 16,
   },
 
   addressContent: {
-    fontFamily: 'Roboto_400Regular',
+    // fontFamily: 'Roboto_400Regular',
     lineHeight: 24,
     marginTop: 8,
     color: '#6C6C80'
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
     color: '#FFF',
     fontSize: 16,
-    fontFamily: 'Roboto_500Medium',
+    // fontFamily: 'Roboto_500Medium',
   },
 });
 

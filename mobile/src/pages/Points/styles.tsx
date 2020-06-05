@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
 
   title: {
     fontSize: 20,
-    fontFamily: 'Ubuntu_700Bold',
+    // fontFamily: 'Ubuntu_700Bold',
     marginTop: 24,
   },
 
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     color: '#6C6C80',
     fontSize: 16,
     marginTop: 4,
-    fontFamily: 'Roboto_400Regular',
+    // fontFamily: 'Roboto_400Regular',
   },
 
   mapContainer: {
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
 
   mapMarkerTitle: {
     flex: 1,
-    fontFamily: 'Roboto_400Regular',
+    // fontFamily: 'Roboto_400Regular',
     color: '#FFF',
     fontSize: 13,
     lineHeight: 23,
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
   },
 
   itemTitle: {
-    fontFamily: 'Roboto_400Regular',
+    // fontFamily: 'Roboto_400Regular',
     textAlign: 'center',
     fontSize: 13,
   },
