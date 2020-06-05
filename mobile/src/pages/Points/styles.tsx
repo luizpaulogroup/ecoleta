@@ -1,12 +1,10 @@
 import { StyleSheet } from 'react-native';
 
-import Constants from 'expo-constants';
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    paddingTop: 20,
     paddingHorizontal: 32,
-    paddingTop: 20 + Constants.statusBarHeight,
   },
 
   title: {

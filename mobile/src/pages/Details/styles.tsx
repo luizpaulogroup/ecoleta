@@ -3,8 +3,8 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 32,
     paddingTop: 20,
+    padding: 10,
   },
 
   pointImage: {
@@ -50,8 +50,8 @@ const styles = StyleSheet.create({
   footer: {
     borderTopWidth: StyleSheet.hairlineWidth,
     borderColor: '#999',
-    paddingVertical: 20,
-    paddingHorizontal: 32,
+    paddingVertical: 10,
+    paddingHorizontal: 10,
     flexDirection: 'row',
     justifyContent: 'space-between'
   },
