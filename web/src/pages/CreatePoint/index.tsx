@@ -148,10 +148,32 @@ const CreatePoint = () => {
         const [latitude, longitude] = selectedPosition;
         const items = selectedItems;
 
-        if (!name.trim() || !email.trim() || !whatsapp.trim() || !uf.trim() || !city.trim() || !latitude || !longitude || items.length == 0) {
-            return toast.error("Informe nome, email, whatsapp, UF, Cidade e selecione no mapa!", {
-                className: "toast-error"
-            });
+        if (!name.trim()) {
+            return toast.error("Informe o nome!");
+        }
+
+        if (!email.trim()) {
+            return toast.error("Informe o email!");
+        }
+
+        if (!whatsapp.trim()) {
+            return toast.error("Informe o whatsapp!");
+        }
+
+        if (!uf.trim()) {
+            return toast.error("Informe a UF!");
+        }
+
+        if (!city.trim()) {
+            return toast.error("Informe a cidade!");
+        }
+
+        if (!latitude || !longitude) {
+            return toast.error("Informe uma localização no mapa!");
+        }
+
+        if (items.length == 0) {
+            return toast.error("Informe ao menos 1 item de coleta!");
         }
 
         const data = {
@@ -297,7 +319,7 @@ const CreatePoint = () => {
                 </fieldset>
                 <button type="submit">Cadastrar ponto de coleta</button>
             </form>
-            <ToastContainer />
+            <ToastContainer position="top-center" toastClassName="toast-error" />
         </div>
     )
 }
