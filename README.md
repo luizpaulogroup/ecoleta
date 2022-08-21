@@ -48,4 +48,4 @@ $ npm start
 
 ---
 
-Made with :heart: by Luiz Paulo :wave: [Get in touch!](https://www.linkedin.com/in/luiz-paulo/)
+Made with :heart: by Luiz Paulo :wave: [Get in touch!](https://www.linkedin.com/in/luizpaulogroup/)
